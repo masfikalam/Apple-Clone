@@ -1,0 +1,170 @@
+.navbar{
+  background: #000;
+  opacity: 0.95;
+}
+#eleven-pro,
+#developers,
+#grid #stuffs {
+  background: #000;
+}
+.navbar hr {
+  background: #c2c2c2;
+  width: 95%;
+}
+.navbar .fa-apple,
+.navbar .fa-shopping-bag,
+.navbar .fa-caret-square-down{
+  color: #c2c2c2;
+}
+.navbar .fa-apple:hover,
+.navbar .fa-caret-square-down:hover,
+.navbar .fa-shopping-bag:hover{
+  color: #fff;
+}
+.navbar input {
+  width: 95%;
+  margin: 20px 0;
+  border: 0;
+}
+.navbar .nav-item {
+  margin: 0 20px;
+}
+.navbar .navbar-nav .nav-item a{
+  color: #c2c2c2;
+}
+.navbar .navbar-nav .nav-item a:hover{
+  color: #fff;
+}
+#shop a {
+  color: #00f;
+}
+#SE{
+  background: #131313;
+}
+#SE .dark,
+#eleven-pro .dark {
+  color: #c2c2c2;
+}
+#SE a,
+#eleven-pro a {
+  font-size: 20px;
+  margin: 10px;
+  text-decoration: none;
+}
+#eleven a,
+#grid #watch a, {
+  font-size: 20px;
+  margin: 10px;
+  text-decoration: none;
+  color: #0000ff;
+}
+#SE .container .headline,
+#eleven .headline,
+#eleven-pro .headline {
+  font-size: 56px;
+  font-weight: bold;
+}
+#eleven,
+#grid #watch {
+  background: #fafafa;
+}
+#eleven .dark {
+  color: #a2a2a2;
+}
+#grid h1 {
+  font-size: 35px;
+  font-weight: bold;
+  margin: 0;
+}
+#grid a{
+  font-size: 18px
+}
+#grid #developers,
+#grid #watch,
+#grid #tv,
+#grid #macbook,
+#grid #stuffs,
+#grid #covid {
+  width: 100%;
+}
+#tv h5 {
+  font-weight: bold;
+}
+#tv {
+  position: relative;
+}#tv img {
+  width: 100%;
+  max-height: 610px;
+}
+#tv .desc {
+  position: absolute;
+  bottom: 2rem;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+#grid #macbook {
+  background: #131218
+}
+#grid #covid {
+  background: #105eab;
+}
+footer {
+  background: #f5f5f7;
+  color: #86868b;
+}
+footer .links-large a{
+  color: #86868b;
+}
+footer .copyright a {
+  color: #333;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width:768px) {
+  #SE .container h1,
+  #eleven h1,
+  #eleven-pro h1 {
+    font-size: 20px;
+  }
+  #SE .container .headline,
+  #eleven .headline,
+  #eleven-pro .headline {
+    font-size: 44px;
+    font-weight: bold;
+  }
+}
+@media (max-width:576px) {
+  #shop h4{
+    font-size: 12px;
+  }
+  #SE .container .headline,
+  #eleven .headline,
+  #eleven-pro .headline {
+    font-size: 30px;
+    font-weight: bold;
+  }
+}
+@media (max-width:400px) {
+  #grid h1 {
+    font-size: 25px;
+  }
+  #grid h3 {
+    font-size: 20px;
+  }
+  #grid h5 {
+    font-size: 25px;
+  }
+}
+@media (max-width:460px) {
+  footer .copyright .other {
+    flex-direction: column;
+  }
+}
